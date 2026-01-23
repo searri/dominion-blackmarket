@@ -1,6 +1,6 @@
 # Black Market Card Randomizer
 
-[*Read more on the Dominion Wiki*](https://wiki.dominionstrategy.com/index.php/Black_Market)
+<a href="https://wiki.dominionstrategy.com/index.php/Black_Market" target="_blank"><i>Read more on the Dominion Wiki</i></a>
 
 ![](./Black_Market.jpg)
 
