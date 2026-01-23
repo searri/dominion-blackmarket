@@ -1,0 +1,47 @@
+{
+    "Encampment / Plunder": [
+        { "Encampment": "images/empires/empires_encampment.jpg" },
+        { "Plunder": "images/empires/empires_plunder.jpg" }
+    ],
+    "Patrician / Emporium": [
+        { "Patrician": "images/empires/empires_patrician.jpg" },
+        { "Emporium": "images/empires/empires_emporium.jpg" }
+    ],
+    "Settlers / Bustling Village": [
+        { "Settlers": "images/empires/empires_settlers.jpg" },
+        { "Bustling Village": "images/empires/empires_bustlingvillage.jpg" }
+    ],
+    "Catapult / Rocks": [
+        { "Catapult": "images/empires/empires_catapult.jpg" },
+        { "Rocks": "images/empires/empires_rocks.jpg" }
+    ],
+    "Gladiator / Fortune": [
+        { "Gladiator": "images/empires/empires_gladiator.jpg" },
+        { "Fortune": "images/empires/empires_fortune.jpg" }
+    ],
+    "Devil's Workshop": [
+        { "Devil's Workshop": "images/nocturne/nocturne_devilsworkshop.jpg" }
+    ],
+    "Knights": [
+        { "Sir Vander": "images/darkages/darkages_sirvander.jpg" },
+        { "Dame Josephine": "images/darkages/darkages_damejosephine.jpg" },
+        { "Sir Destry": "images/darkages/darkages_sirdestry.jpg" },
+        { "Dame Natalie": "images/darkages/darkages_damenatalie.jpg" },
+        { "Dame Sylvia": "images/darkages/darkages_damesylvia.jpg" },
+        { "Sir Michael": "images/darkages/darkages_sirmichael.jpg" },
+        { "Dame Molly": "images/darkages/darkages_damemolly.jpg" },
+        { "Dame Anna": "images/darkages/darkages_dameanna.jpg" },
+        { "Sir Bailey": "images/darkages/darkages_sirbailey.jpg" },
+        { "Sir Martin": "images/darkages/darkages_sirmartin.jpg" }
+    ],
+    "Castles": [
+        { "Humble Castle": "images/empires/empires_humblecastle.jpg" },
+        { "Crumbling Castle": "images/empires/empires_crumblingcastle.jpg" },
+        { "Small Castle": "images/empires/empires_smallcastle.jpg" },
+        { "Haunted Castle": "images/empires/empires_hauntedcastle.jpg" },
+        { "Opulent Castle": "images/empires/empires_opulentcastle.jpg" },
+        { "Sprawling Castle": "images/empires/empires_sprawlingcastle.jpg" },
+        { "Grand Castle": "images/empires/empires_grandcastle.jpg" },
+        { "King's Castle": "images/empires/empires_kingscastle.jpg" }
+    ]
+}
