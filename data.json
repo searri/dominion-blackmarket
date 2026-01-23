@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Mountain",
+        "image": "images/mountain.jpg"
+    },
+    {
+        "name": "Ocean",
+        "image": "images/ocean.jpg"
+    },
+    {
+        "name": "Stonemason",
+        "image": "images/Stonemason.jpg"
+    }
+]

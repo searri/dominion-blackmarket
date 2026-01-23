@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Randomizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Configure Tailwind to use the 'class' strategy for dark mode
+        tailwind.config = { darkMode: 'class' }
+    </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 min-h-screen flex flex-col items-center justify-center p-4 transition-colors duration-300">
+
+    <div class="fixed top-4 right-4">
+        <button id="theme-toggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:ring-2 ring-blue-500 transition-all">
+            <span id="theme-toggle-icon">☀️</span>
+        </button>
+    </div>
+
+    <div id="main-view" class="text-center">
+        <h1 class="text-4xl font-bold mb-8 text-gray-800 dark:text-white">Card Explorer</h1>
+        <button id="randomize-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105">
+            Randomize
+        </button>
+    </div>
+
+    <div id="card-view" class="hidden w-full max-w-6xl text-center">
+        <div id="card-container" class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            </div>
+        <button id="redraw-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all">
+            Redraw
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
