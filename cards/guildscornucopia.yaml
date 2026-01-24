@@ -155,13 +155,13 @@ cards:
       potion: 0
     isTreasure: true
 
-  - name: Hunting Party
-    cost:
-      treasure: 5
-      potion: 0
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
+  # - name: Hunting Party
+  #   cost:
+  #     treasure: 5
+  #     potion: 0
+  #   isAction: true
+  #   isDrawer: true
+  #   isMultiDrawer: true
 
   - name: Menagerie
     cost:
