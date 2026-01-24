@@ -120,40 +120,20 @@
         "image": "images/adventures/adventures_coinoftherealm.jpg"
     },
     {
-        "name": "Bureaucrat",
-        "image": "images/baseset/baseset_bureaucrat.jpg"
-    },
-    {
         "name": "Cellar",
         "image": "images/baseset/baseset_cellar.jpg"
-    },
-    {
-        "name": "Chapel",
-        "image": "images/baseset/baseset_chapel.jpg"
     },
     {
         "name": "Council Room",
         "image": "images/baseset/baseset_councilroom.jpg"
     },
     {
-        "name": "Feast",
-        "image": "images/baseset/baseset_feast.jpg"
-    },
-    {
         "name": "Festival",
         "image": "images/baseset/baseset_festival.jpg"
     },
     {
-        "name": "Gardens",
-        "image": "images/baseset/baseset_gardens.jpg"
-    },
-    {
         "name": "Laboratory",
         "image": "images/baseset/baseset_laboratory.jpg"
-    },
-    {
-        "name": "Library",
-        "image": "images/baseset/baseset_library.jpg"
     },
     {
         "name": "Market",
@@ -180,18 +160,6 @@
         "image": "images/baseset/baseset_remodel.jpg"
     },
     {
-        "name": "Smithy",
-        "image": "images/baseset/baseset_smithy.jpg"
-    },
-    {
-        "name": "Spy",
-        "image": "images/baseset/baseset_spy.jpg"
-    },
-    {
-        "name": "Thief",
-        "image": "images/baseset/baseset_thief.jpg"
-    },
-    {
         "name": "Throne Room",
         "image": "images/baseset/baseset_throneroom.jpg"
     },
@@ -202,10 +170,6 @@
     {
         "name": "Woodcutter",
         "image": "images/baseset/baseset_woodcutter.jpg"
-    },
-    {
-        "name": "Workshop",
-        "image": "images/baseset/baseset_workshop.jpg"
     },
     {
         "name": "Armory",
@@ -664,108 +628,100 @@
         "image": "images/guildscornucopia/guildscornucopia_remake.jpg"
     },
     {
-        "name": "Nobles",
-        "image": "images/intrigue2/intrigue2_nobles.jpg"
-    },
-    {
-        "name": "Conspirator",
-        "image": "images/intrigue2/intrigue2_conspirator.jpg"
-    },
-    {
-        "name": "Mining Village",
-        "image": "images/intrigue2/intrigue2_miningvillage.jpg"
-    },
-    {
-        "name": "Pawn",
-        "image": "images/intrigue2/intrigue2_pawn.jpg"
-    },
-    {
-        "name": "Courtyard",
-        "image": "images/intrigue2/intrigue2_courtyard.jpg"
-    },
-    {
-        "name": "Trading Post",
-        "image": "images/intrigue2/intrigue2_tradingpost.jpg"
-    },
-    {
-        "name": "Duke",
-        "image": "images/intrigue2/intrigue2_duke.jpg"
-    },
-    {
         "name": "Baron",
         "image": "images/intrigue2/intrigue2_baron.jpg"
-    },
-    {
-        "name": "Swindler",
-        "image": "images/intrigue2/intrigue2_swindler.jpg"
     },
     {
         "name": "Bridge",
         "image": "images/intrigue2/intrigue2_bridge.jpg"
     },
     {
-        "name": "Torturer",
-        "image": "images/intrigue2/intrigue2_torturer.jpg"
-    },
-    {
-        "name": "Wishing Well",
-        "image": "images/intrigue2/intrigue2_wishingwell.jpg"
-    },
-    {
-        "name": "Masquerade",
-        "image": "images/intrigue2/intrigue2_masquerade.jpg"
-    },
-    {
-        "name": "Ironworks",
-        "image": "images/intrigue2/intrigue2_ironworks.jpg"
-    },
-    {
-        "name": "Steward",
-        "image": "images/intrigue2/intrigue2_steward.jpg"
-    },
-    {
-        "name": "Harem",
-        "image": "images/intrigue2/intrigue2_harem.jpg"
-    },
-    {
-        "name": "Minion",
-        "image": "images/intrigue2/intrigue2_minion.jpg"
-    },
-    {
-        "name": "Upgrade",
-        "image": "images/intrigue2/intrigue2_upgrade.jpg"
-    },
-    {
-        "name": "Shanty Town",
-        "image": "images/intrigue2/intrigue2_shantytown.jpg"
-    },
-    {
-        "name": "Lurker",
-        "image": "images/intrigue2/intrigue2_lurker.jpg"
-    },
-    {
-        "name": "Diplomat",
-        "image": "images/intrigue2/intrigue2_diplomat.jpg"
-    },
-    {
-        "name": "Mill",
-        "image": "images/intrigue2/intrigue2_mill.jpg"
-    },
-    {
-        "name": "Secret Passage",
-        "image": "images/intrigue2/intrigue2_secretpassage.jpg"
-    },
-    {
-        "name": "Patrol",
-        "image": "images/intrigue2/intrigue2_patrol.jpg"
+        "name": "Conspirator",
+        "image": "images/intrigue2/intrigue2_conspirator.jpg"
     },
     {
         "name": "Courtier",
         "image": "images/intrigue2/intrigue2_courtier.jpg"
     },
     {
+        "name": "Courtyard",
+        "image": "images/intrigue2/intrigue2_courtyard.jpg"
+    },
+    {
+        "name": "Diplomat",
+        "image": "images/intrigue2/intrigue2_diplomat.jpg"
+    },
+    {
+        "name": "Duke",
+        "image": "images/intrigue2/intrigue2_duke.jpg"
+    },
+    {
+        "name": "Harem",
+        "image": "images/intrigue2/intrigue2_harem.jpg"
+    },
+    {
+        "name": "Ironworks",
+        "image": "images/intrigue2/intrigue2_ironworks.jpg"
+    },
+    {
+        "name": "Lurker",
+        "image": "images/intrigue2/intrigue2_lurker.jpg"
+    },
+    {
+        "name": "Masquerade",
+        "image": "images/intrigue2/intrigue2_masquerade.jpg"
+    },
+    {
+        "name": "Mill",
+        "image": "images/intrigue2/intrigue2_mill.jpg"
+    },
+    {
+        "name": "Mining Village",
+        "image": "images/intrigue2/intrigue2_miningvillage.jpg"
+    },
+    {
+        "name": "Minion",
+        "image": "images/intrigue2/intrigue2_minion.jpg"
+    },
+    {
+        "name": "Nobles",
+        "image": "images/intrigue2/intrigue2_nobles.jpg"
+    },
+    {
+        "name": "Pawn",
+        "image": "images/intrigue2/intrigue2_pawn.jpg"
+    },
+    {
         "name": "Replace",
         "image": "images/intrigue2/intrigue2_replace.jpg"
+    },
+    {
+        "name": "Secret Passage",
+        "image": "images/intrigue2/intrigue2_secretpassage.jpg"
+    },
+    {
+        "name": "Shanty Town",
+        "image": "images/intrigue2/intrigue2_shantytown.jpg"
+    },
+    {
+        "name": "Steward",
+        "image": "images/intrigue2/intrigue2_steward.jpg"
+    },
+    {
+        "name": "Swindler",
+        "image": "images/intrigue2/intrigue2_swindler.jpg"
+    },
+    {
+        "name": "Torturer",
+        "image": "images/intrigue2/intrigue2_torturer.jpg"
+    },
+    {
+        "name": "Trading Post",
+        "image": "images/intrigue2/intrigue2_tradingpost.jpg"
+    },
+    {
+        "name": "Wishing Well",
+        "image": "images/intrigue2/intrigue2_wishingwell.jpg"
     },
     {
         "name": "Druid",
@@ -852,10 +808,6 @@
         "image": "images/nocturne/nocturne_skulk.jpg"
     },
     {
-        "name": "Cobbler",
-        "image": "images/nocturne/nocturne_cobbler.jpg"
-    },
-    {
         "name": "Crypt",
         "image": "images/nocturne/nocturne_crypt.jpg"
     },
@@ -936,107 +888,83 @@
         "image": "images/seaside2add/seaside2add_seawitch.jpg"
     },
     {
-        "name": "Ghost Ship",
-        "image": "images/seaside/seaside_ghostship.jpg"
-    },
-    {
-        "name": "Smugglers",
-        "image": "images/seaside/seaside_smugglers.jpg"
-    },
-    {
-        "name": "Salvager",
-        "image": "images/seaside/seaside_salvager.jpg"
-    },
-    {
-        "name": "Haven",
-        "image": "images/seaside/seaside_haven.jpg"
-    },
-    {
         "name": "Ambassador",
         "image": "images/seaside/seaside_ambassador.jpg"
-    },
-    {
-        "name": "Sea Hag",
-        "image": "images/seaside/seaside_seahag.jpg"
-    },
-    {
-        "name": "Native Village",
-        "image": "images/seaside/seaside_nativevillage.jpg"
-    },
-    {
-        "name": "Navigator",
-        "image": "images/seaside/seaside_navigator.jpg"
-    },
-    {
-        "name": "Tactician",
-        "image": "images/seaside/seaside_tactician.jpg"
-    },
-    {
-        "name": "Fishing Village",
-        "image": "images/seaside/seaside_fishingvillage.jpg"
-    },
-    {
-        "name": "Island",
-        "image": "images/seaside/seaside_island.jpg"
-    },
-    {
-        "name": "Wharf",
-        "image": "images/seaside/seaside_wharf.jpg"
     },
     {
         "name": "Bazaar",
         "image": "images/seaside/seaside_bazaar.jpg"
     },
     {
-        "name": "Treasure Map",
-        "image": "images/seaside/seaside_treasuremap.jpg"
-    },
-    {
-        "name": "Explorer",
-        "image": "images/seaside/seaside_explorer.jpg"
-    },
-    {
-        "name": "Lookout",
-        "image": "images/seaside/seaside_lookout.jpg"
-    },
-    {
-        "name": "Treasury",
-        "image": "images/seaside/seaside_treasury.jpg"
+        "name": "Caravan",
+        "image": "images/seaside/seaside_caravan.jpg"
     },
     {
         "name": "Cutpurse",
         "image": "images/seaside/seaside_cutpurse.jpg"
     },
     {
-        "name": "Caravan",
-        "image": "images/seaside/seaside_caravan.jpg"
+        "name": "Fishing Village",
+        "image": "images/seaside/seaside_fishingvillage.jpg"
     },
     {
-        "name": "Warehouse",
-        "image": "images/seaside/seaside_warehouse.jpg"
+        "name": "Haven",
+        "image": "images/seaside/seaside_haven.jpg"
+    },
+    {
+        "name": "Island",
+        "image": "images/seaside/seaside_island.jpg"
     },
     {
         "name": "Lighthouse",
         "image": "images/seaside/seaside_lighthouse.jpg"
     },
     {
-        "name": "Pirate Ship",
-        "image": "images/seaside/seaside_pirateship.jpg"
-    },
-    {
-        "name": "Pearl Diver",
-        "image": "images/seaside/seaside_pearldiver.jpg"
+        "name": "Lookout",
+        "image": "images/seaside/seaside_lookout.jpg"
     },
     {
         "name": "Merchant Ship",
         "image": "images/seaside/seaside_merchantship.jpg"
     },
     {
-        "name": "Embargo",
-        "image": "images/seaside/seaside_embargo.jpg"
+        "name": "Native Village",
+        "image": "images/seaside/seaside_nativevillage.jpg"
     },
     {
         "name": "Outpost",
         "image": "images/seaside/seaside_outpost.jpg"
+    },
+    {
+        "name": "Pearl Diver",
+        "image": "images/seaside/seaside_pearldiver.jpg"
+    },
+    {
+        "name": "Salvager",
+        "image": "images/seaside/seaside_salvager.jpg"
+    },
+    {
+        "name": "Smugglers",
+        "image": "images/seaside/seaside_smugglers.jpg"
+    },
+    {
+        "name": "Tactician",
+        "image": "images/seaside/seaside_tactician.jpg"
+    },
+    {
+        "name": "Treasure Map",
+        "image": "images/seaside/seaside_treasuremap.jpg"
+    },
+    {
+        "name": "Treasury",
+        "image": "images/seaside/seaside_treasury.jpg"
+    },
+    {
+        "name": "Warehouse",
+        "image": "images/seaside/seaside_warehouse.jpg"
+    },
+    {
+        "name": "Wharf",
+        "image": "images/seaside/seaside_wharf.jpg"
     }
 ]
