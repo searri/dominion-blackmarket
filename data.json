@@ -437,7 +437,7 @@
     },
     {
         "name": "Farmers' Market",
-        "image": "images/empires/empires_farmers'market.jpg"
+        "image": "images/empires/empires_farmersmarket.jpg"
     },
     {
         "name": "Gladiator",
@@ -546,10 +546,6 @@
     {
         "name": "Herald",
         "image": "images/guildscornucopia/guildscornucopia_herald.jpg"
-    },
-    {
-        "name": "Journeyman",
-        "image": "images/guildscornucopia/guildscornucopia_journeyman.jpg"
     },
     {
         "name": "Masterpiece",

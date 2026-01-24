@@ -43,5 +43,8 @@
         { "Sprawling Castle": "images/empires/empires_sprawlingcastle.jpg" },
         { "Grand Castle": "images/empires/empires_grandcastle.jpg" },
         { "King's Castle": "images/empires/empires_kingscastle.jpg" }
+    ],
+    "Farmers' Market": [
+        { "Farmers' Market": "images/empires/empires_farmersmarket.jpg" }
     ]
 }
