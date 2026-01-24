@@ -41,13 +41,13 @@ cards:
       potion: 0
     isAction: true
 
-  - name: Journeyman
-    cost:
-      treasure: 5
-      potion: 0
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
+  # - name: Journeyman
+  #   cost:
+  #     treasure: 5
+  #     potion: 0
+  #   isAction: true
+  #   isDrawer: true
+  #   isMultiDrawer: true
 
   - name: Masterpiece
     cost:
