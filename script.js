@@ -1,6 +1,5 @@
-// script.js
 let cardDataset = [];
-let currentCardNames = []; // Track names of cards currently on screen
+let currentSelection = []; // Track the 3 card objects currently shown
 
 const mainView = document.getElementById('main-view');
 const cardView = document.getElementById('card-view');
@@ -18,45 +17,54 @@ async function loadData() {
     }
 }
 
-function drawCards() {
-    // 1. Filter out cards that are currently displayed
-    const availablePool = cardDataset.filter(card => !currentCardNames.includes(card.name));
-
-    // 2. Safety check: if pool is too small, fallback to full dataset (minus current)
-    if (availablePool.length < 3) {
-        alert("Not enough unique cards left to draw. Resetting pool!");
-        displayCards(cardDataset.sort(() => 0.5 - Math.random()).slice(0, 3));
-        return;
-    }
-
-    // 3. Shuffle and pick 3
-    const shuffled = [...availablePool].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 3);
-
-    // 4. Update the tracker
-    currentCardNames = selected.map(c => c.name);
-
-    displayCards(selected);
+// Function to draw 3 entirely new cards
+function drawAllCards() {
+    if (cardDataset.length < 3) return alert("Not enough cards!");
+    
+    // Shuffle and pick 3
+    const shuffled = [...cardDataset].sort(() => 0.5 - Math.random());
+    currentSelection = shuffled.slice(0, 3);
+    
+    renderUI();
 }
 
-function displayCards(cards) {
+// Function to replace just ONE card at a specific index
+window.replaceSingleCard = function(index) {
+    // Get names of cards currently on screen to avoid duplicates
+    const activeNames = currentSelection.map(c => c.name);
+    const availablePool = cardDataset.filter(card => !activeNames.includes(card.name));
+
+    if (availablePool.length === 0) return alert("No more unique cards left!");
+
+    // Pick one new card and swap it into the array
+    const newCard = availablePool[Math.floor(Math.random() * availablePool.length)];
+    currentSelection[index] = newCard;
+    
+    renderUI();
+};
+
+function renderUI() {
     cardContainer.innerHTML = '';
-    cards.forEach((card, index) => {
+    
+    currentSelection.forEach((card, index) => {
         const cardEl = document.createElement('div');
+        // Added flex layout to keep button at bottom
+        cardEl.className = "bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 p-4 max-w-sm mx-auto animate-fade-in flex flex-col";
         
-        // Added 'opacity-0' and 'animate-fade-in' for a smooth transition
-        cardEl.className = "bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 p-4 max-w-sm mx-auto animate-fade-in";
-        
-        // Apply a slight delay to each card for a staggered effect
+        // Staggered animation delay
         cardEl.style.animationDelay = `${index * 150}ms`;
         cardEl.style.animationFillMode = "forwards";
 
         cardEl.innerHTML = `
             <img src="${card.image}" 
-                 alt="${card.name}" 
-                 class="w-full h-auto rounded-md mb-4 shadow-sm"
-                 width="800" height="1280">
-            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200">${card.name}</h3>
+                alt="${card.name}" 
+                class="w-full h-auto rounded-md mb-4 shadow-sm"
+                width="800" height="1280">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">${card.name}</h3>
+            <button onclick="replaceSingleCard(${index})" 
+                class="mt-auto bg-gray-200 dark:bg-gray-700 hover:bg-red-800 dark:hover:bg-red-900 hover:text-white text-gray-700 dark:text-gray-200 py-2 px-4 rounded-lg transition-colors text-sm font-bold">
+                Replace This Card
+            </button>
         `;
         cardContainer.appendChild(cardEl);
     });
@@ -65,21 +73,14 @@ function displayCards(cards) {
     cardView.classList.remove('hidden');
 }
 
-// Draw logic
-function drawCards() {
-    if (cardDataset.length < 3) return alert("Not enough cards!");
-    const shuffled = [...cardDataset].sort(() => 0.5 - Math.random());
-    displayCards(shuffled.slice(0, 3));
-}
-
-// Dark Mode Toggle Logic
+// Theme Logic
 themeToggle.addEventListener('click', () => {
     const isDark = document.documentElement.classList.toggle('dark');
     themeIcon.innerText = isDark ? '☀️' : '🌙';
 });
 
-// Event Listeners
-document.getElementById('randomize-btn').addEventListener('click', drawCards);
-document.getElementById('redraw-btn').addEventListener('click', drawCards);
+// Event Listeners - Pointing to the new unified function
+document.getElementById('randomize-btn').addEventListener('click', drawAllCards);
+document.getElementById('redraw-btn').addEventListener('click', drawAllCards);
 
 loadData();
